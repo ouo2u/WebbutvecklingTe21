@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(22, 17, 17);
+    color: #ffffff
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+     border:1px solid rgb(247, 246, 246);
+     
+}
+
+ p,h1, h2{
+    color: rgb(113, 113, 146);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif; 
+   
+    
+
+}
+.oi{
+color: rgb(2, 0, 128);
+text-align: center;
+background-color: rgb(68, 63, 63);
+
+}
+
+.ii{ 
+    color: aqua;
+    text-align: right;
+}
+
+ a{
+    text-decoration: none;
+ }
