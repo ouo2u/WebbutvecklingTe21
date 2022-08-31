@@ -35,3 +35,13 @@ background-color: rgb(68, 63, 63);
  a{
     text-decoration: none;
  }
+
+ table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+
+  }
+  th, td {
+    background-color: rgb(8, 8, 8);
+  }
+  
