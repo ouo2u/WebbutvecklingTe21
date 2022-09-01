@@ -36,12 +36,35 @@ background-color: rgb(68, 63, 63);
     text-decoration: none;
  }
 
- table, th, td {
-    border: 1px solid red;
-    border-collapse: collapse;
 
+
+ table {
+
+    border: 1px solid black;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
   }
-  th, td {
-    background-color: rgb(8, 8, 8);
+ 
+  .th {
+    color: black;
+    background-color: rgb(202, 200, 200);
+     
+ }
+ 
+  tr:nth-child(2n+2) {
+    background-color: #2b9696;
+    color: black;
+  }
+
+  tr:nth-child(2n+3) {
+    background-color: #b42917;
   }
   
+  .div, table {
+    border: 5px rgb(246, 5, 5);
+    
+  }
