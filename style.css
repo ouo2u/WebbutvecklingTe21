@@ -1,0 +1,58 @@
+body{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 80px 50px auto 50px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main1 main2"
+    "footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+nav{
+    grid-area: nav;
+    background-color: beige;
+}
+nav>ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    margin: 0;
+
+}
+nav li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+nav a{
+    text-decoration: none;
+
+}
+main{
+    background-color: cadetblue;
+}
+section{
+    grid-area: main;
+}
+section{
+   
+}
+aside{
+    grid-area: aside;
+}
+section:last-of-type{
+    grid-area: main2;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: aqua;
+
+}
